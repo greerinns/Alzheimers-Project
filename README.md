@@ -1,5 +1,5 @@
 # Group-5-Project
-Please  note that the code for the project:
+Please  note the code for the project used:
    - Health_analysis-Final.ipynb
    - Alz_Mortality.ipynb
    - API_Attempt.ipynb is an attempt to use APIs in the future 
