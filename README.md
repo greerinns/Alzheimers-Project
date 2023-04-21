@@ -1,8 +1,8 @@
 # Group-5-Project
 Please  note that the code for the project:
-    Health_analysis-Final.ipynb
-    Alz_Mortality.ipynb
-API_Attempt.ipynb is an attempt to use APIs in the future 
+   - Health_analysis-Final.ipynb
+   - Alz_Mortality.ipynb
+   - API_Attempt.ipynb is an attempt to use APIs in the future 
 
 Data mining for this project was challenging. The data related to the hypothesis was hidden under two values in a column. The data Frame was filtered by those two question-values, then two more columns were created from the existing one.
 Those columns are derived from the column called “Data_Value”. The values of one of them contains info about mean number of days with activity limitations, the values of the second column contain info about percentage of older adults who self-reported that their health is "fair" or "poor".
