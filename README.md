@@ -1,4 +1,5 @@
-# Group-5-Project
+# Analysis of Alzheimer’s Data Amongst Different Demographics in the US (Project 1, Group5)
+
 Please  note the code for the project used:
    - Health_analysis-Final.ipynb
    - Alz_Mortality.ipynb
