@@ -11,6 +11,18 @@ Null Hypothesis:   “The well-being of physically inactive patients (with AD) s
 The correlation coefficient is 0.75 (the R-value is close to 1) which means there is a strong correlation between inactive days and poor health.
 The probability (P-value) value is less than 0.05 which is strong evidence against the null hypothesis. (edited) 
 
+For the Age Group testing i have applied a filter to the data set: 
+filtered_db on following 
+(['QuestionID'] =="Q32") | (kaggle_data_df['QuestionID'] =="Q35"))  & ((kaggle_data_df['StratificationCategoryID1'] =="AGE")  & (kaggle_data_df['StratificationID1'] =="AGE_OVERALL")) 
+ & ((kaggle_data_df['StratificationCategoryID2'] =="OVERALL") 
+
+Sine we have 2 variables with a continuous values (Poor JHeath) and Age Group is categorical (5064 and 65PLUS) we have decided to use t-est and box ploting. 
+The t-test ind a significant result in an independent samples t-test (i.e., a small p-value) suggests that there is evidence to support a statistically significant difference between the means of the two groups being compared, while a non-significant result (i.e., a large p-value) suggests that there is not enough evidence to reject the null hypothesis of no difference between the means of the two groups. It is important to consider the context of the # study and the assumptions of the t-test (e.g., normality of data, equality of variances) when interpreting the results.
+
+We have also studied the dependence between Age Group and States. The 2 variables being both catergorical the test used is Chi-square test.
+P reparing the data for the chi test by cross-tabulation table of two or more factors. It takes one or more arrays or Series objects as inputs and  produces a table that shows the frequency distribution of the variables. It is essentially a pivot table that computes group frequencies with one variable in the rows and another variable in the columns.
+The p-value tells us the probability of observing a test statistic as extreme as the one we observed, assuming that the null hypothesis is true. If the p-value is less than the significance level (e.g., 0.05),  we reject the null hypothesis and conclude that there is a significant association between the two categorical variables. 
+If the p-value is greater than the significance level, we fail to reject the null hypothesis and conclude that there is no significant association between the two categorical variables.
 
 
 
